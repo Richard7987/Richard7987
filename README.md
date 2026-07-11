@@ -1,6 +1,6 @@
 # 👋 Hola, soy Alejandro Bernal
 
-Estudiante de física 🇲🇽 — construyendo cosas en la intersección de la ciencia, el software libre y la privacidad digital.
+Estudiante de física — construyendo cosas en la intersección de la ciencia, el software libre y la privacidad digital.
 
 ## 🌱 Aprendiendo
 
