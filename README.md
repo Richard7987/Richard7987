@@ -1,25 +1,22 @@
 # 👋 Hola, soy Alejandro Bernal
 
-Estudiante de física en México 🇲🇽 — construyendo cosas en la intersección de la ciencia, el software libre y la privacidad digital.
-
-## 🔭 Actualmente trabajando en
-
-- **Proyecto Física 2do** — Sistema de reconstrucción de sonido con láser-fotodiodo (BPW34 + MAX9814), procesamiento FFT/SVD en MATLAB/Simulink
-- **Infraestructura personal** — Servidor OpenBSD con sitio estático (Zola), servicio oculto Tor, workflow GPG con YubiKey
+Estudiante de física 🇲🇽 — construyendo cosas en la intersección de la ciencia, el software libre y la privacidad digital.
 
 ## 🌱 Aprendiendo
 
-Espacios vectoriales, oscilaciones y ondas • Análisis de señales • MATLAB avanzado • administración OpenBSD
+Electromagnetismo · Espacios vectoriales · Álgebra · Oscilaciones y ondas · Administración de sistemas BSD · Herramientas suckless
 
 ## 💡 Intereses
 
-Privacidad digital · FOSS · Criptografía · Tecnologías descentralizadas (Monero, Nostr) · Física experimental · Violín · Ciclismo
+Privacidad digital · FOSS · Criptografía · Tecnologías descentralizadas (Monero, Tor, GrapheneOS) · Física experimental · Sistemas embebidos · Violín · Ciclismo · Fotografía analógica · Atletismo
 
 ---
 
 ## 🌐 Contacto
 
-[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=codeberg&logoColor=white)](https://codeberg.org/Richard7987)
+[![Email](https://img.shields.io/badge/Email-ale__bnes%40nezzontli.xyz-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:ale_bnes@nezzontli.xyz)
+[![Mastodon](https://img.shields.io/badge/Mastodon-%40negasonic69%40masto.es-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://masto.es/@negasonic69)
+[![GoodReads](https://img.shields.io/badge/GoodReads-Ale.lele-372213?style=for-the-badge&logo=goodreads&logoColor=white)](https://www.goodreads.com/alelele)
 [![Web](https://img.shields.io/badge/nezzontli.xyz-1a1a1a?style=for-the-badge&logo=tor-project&logoColor=white)](https://nezzontli.xyz)
 
 ---
@@ -34,16 +31,9 @@ Privacidad digital · FOSS · Criptografía · Tecnologías descentralizadas (Mo
 
 ## 🖥️ Entorno
 
-![Fedora](https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white)
+![FreeBSD](https://img.shields.io/badge/FreeBSD-AB2B28?style=for-the-badge&logo=freebsd&logoColor=white)
 ![OpenBSD](https://img.shields.io/badge/OpenBSD-F2CA30?style=for-the-badge&logo=openbsd&logoColor=black)
-![Emacs](https://img.shields.io/badge/Doom_Emacs-7F5AB6?style=for-the-badge&logo=gnuemacs&logoColor=white)
-![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=codeberg&logoColor=white)
-
-## 🔬 Herramientas de laboratorio / ciencia
-
-![Simulink](https://img.shields.io/badge/Simulink-e16737?style=for-the-badge&logo=mathworks&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 
 ---
 
