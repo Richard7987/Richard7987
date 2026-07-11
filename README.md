@@ -1,12 +1,12 @@
-# 👋 Hola, soy Alejandro Bernal
+# I'm Alejandro Bernal
 
 Estudiante de física — construyendo cosas en la intersección de la ciencia, el software libre y la privacidad digital.
 
-## 🌱 Aprendiendo
+## Learning
 
 Electromagnetismo · Espacios vectoriales · Álgebra · Oscilaciones y ondas · Administración de sistemas BSD · Herramientas suckless
 
-## 💡 Intereses
+## Intereses
 
 Privacidad digital · FOSS · Criptografía · Tecnologías descentralizadas (Monero, Tor, GrapheneOS) · Física experimental · Sistemas embebidos · Violín · Ciclismo · Fotografía analógica · Atletismo
 
