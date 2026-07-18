@@ -31,6 +31,7 @@ Privacidad digital · FOSS · Criptografía · Tecnologías descentralizadas (Mo
     <img src="https://img.shields.io/badge/nezzontli.xyz-1a1a1a?style=for-the-badge&logo=tor-project&logoColor=white" alt="Web" style="margin: 4px;"/>
   </a>
 </p>
+
 ---
 
 ##  Stack principal
