@@ -12,16 +12,28 @@ Privacidad digital · FOSS · Criptografía · Tecnologías descentralizadas (Mo
 
 ---
 
-## 🌐 Contacto
+## Contacto
 
-[![Email](https://img.shields.io/badge/Email-ale__bnes%40nezzontli.xyz-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:ale_bnes@nezzontli.xyz)
-[![Mastodon](https://img.shields.io/badge/Mastodon-%40negasonic69%40masto.es-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://masto.es/@negasonic69)
-[![GoodReads](https://img.shields.io/badge/GoodReads-Ale.lele-372213?style=for-the-badge&logo=goodreads&logoColor=white)](https://www.goodreads.com/alelele)
-[![Web](https://img.shields.io/badge/nezzontli.xyz-1a1a1a?style=for-the-badge&logo=tor-project&logoColor=white)](https://nezzontli.xyz)
-
+<p align="center">
+  <a href="mailto:ale_bnes@nezzontli.xyz">
+    <img src="https://img.shields.io/badge/Email-ale__bnes%40nezzontli.xyz-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email" style="margin: 4px;"/>
+  </a>
+  <a href="https://codeberg.org/Richard7987/gpg-keys/raw/branch/main/ale_bnes.pub.asc">
+    <img src="https://img.shields.io/badge/GPG_Key-8A0A14D7-8B5CF6?style=for-the-badge&logo=gnuprivacyguard&logoColor=white" alt="GPG Key" style="margin: 4px;"/>
+  </a>
+  <a href="https://masto.es/@negasonic69">
+    <img src="https://img.shields.io/badge/Mastodon-%40negasonic69%40masto.es-6364FF?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon" style="margin: 4px;"/>
+  </a>
+  <a href="https://www.goodreads.com/alelele">
+    <img src="https://img.shields.io/badge/GoodReads-Ale.lele-372213?style=for-the-badge&logo=goodreads&logoColor=white" alt="GoodReads" style="margin: 4px;"/>
+  </a>
+  <a href="https://nezzontli.xyz">
+    <img src="https://img.shields.io/badge/nezzontli.xyz-1a1a1a?style=for-the-badge&logo=tor-project&logoColor=white" alt="Web" style="margin: 4px;"/>
+  </a>
+</p>
 ---
 
-## 💻 Stack principal
+##  Stack principal
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![MATLAB](https://img.shields.io/badge/MATLAB-e16737?style=for-the-badge&logo=mathworks&logoColor=white)
@@ -29,11 +41,13 @@ Privacidad digital · FOSS · Criptografía · Tecnologías descentralizadas (Mo
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-## 🖥️ Entorno
+##  Entorno
 
 ![FreeBSD](https://img.shields.io/badge/FreeBSD-AB2B28?style=for-the-badge&logo=freebsd&logoColor=white)
 ![OpenBSD](https://img.shields.io/badge/OpenBSD-F2CA30?style=for-the-badge&logo=openbsd&logoColor=black)
+![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![IntelliJ IDEA Ultimate](https://img.shields.io/badge/IntelliJ_IDEA_Ultimate-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
 
 ---
 
