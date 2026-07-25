@@ -3,10 +3,10 @@
 </p>
 
 ## Learning
-Electromagnetismo · Espacios vectoriales · Álgebra · Oscilaciones y ondas · Administración de sistemas BSD · Herramientas suckless
+Electromagnetism · Vector spaces · Algebra · Oscillations and waves · BSD systems administration · Suckless tools
 
-## Intereses
-Privacidad digital · FOSS · Criptografía · Tecnologías descentralizadas (Monero, Tor, GrapheneOS) · Física experimental · Sistemas embebidos · Violín · Ciclismo · Fotografía analógica · Atletismo
+## Interests
+Digital privacy · FOSS · Cryptography · Decentralized technologies (Monero, Tor, GrapheneOS) · Experimental physics · Embedded systems · Violin · Cycling · Analog photography · Track and field
 
 ---
 
