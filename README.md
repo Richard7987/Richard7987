@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./banner.svg" alt="Alejandro Bernal — physics student: science, free software, digital privacy" width="760"/>
-</p>
-
-<p align="center">
   <img src="./ascii-wordmark.svg" alt="nezzontli" width="560"/>
 </p>
 
@@ -20,8 +16,6 @@ privacy as the default rather than a feature.
 <p align="center">
   <img src="./contrib-heatmap.svg" alt="GitHub contribution heatmap" width="820"/>
 </p>
-
-<sub>Scraped from the public contribution calendar and re-rendered daily by <a href="./.github/workflows/refresh.yml"><code>refresh.yml</code></a> — no third-party services, no API token.</sub>
 
 <h3><code>richard@nezzontli:~$ ./links.sh</code></h3>
 
