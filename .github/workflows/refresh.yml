@@ -2,11 +2,6 @@ name: refresh-profile-assets
 
 # Regenerates data/contributions.json + contrib-heatmap.svg from the public
 # GitHub contribution calendar and commits them back.
-#
-# NOTE: this commits to the repo. If this repo is a *push* mirror from a
-# Forgejo/Gitea instance, the next mirror sync will force-push over these
-# commits. For the workflow to stick, GitHub must be authoritative for this
-# repo (disable the push mirror, or switch it to a pull mirror).
 
 on:
   schedule:
