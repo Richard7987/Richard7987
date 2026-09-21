@@ -1,9 +1,9 @@
 {
   "user": "Richard7987",
-  "generated_at": "2026-09-20T11:31:17Z",
+  "generated_at": "2026-09-21T12:55:55Z",
   "range": {
     "start": "2025-09-21",
-    "end": "2026-09-20"
+    "end": "2026-09-21"
   },
   "weeks": [
     [
@@ -475,8 +475,8 @@
       2
     ],
     [
+      1,
       0,
-      -1,
       -1,
       -1,
       -1,
@@ -2357,14 +2357,19 @@
     },
     {
       "date": "2026-09-20",
+      "level": 1,
+      "count": 1
+    },
+    {
+      "date": "2026-09-21",
       "level": 0,
       "count": 0
     }
   ],
   "stats": {
-    "total": 779,
-    "active_days": 88,
-    "current_streak": 1,
+    "total": 780,
+    "active_days": 89,
+    "current_streak": 2,
     "longest_streak": 13,
     "best_day": {
       "date": "2026-07-17",
