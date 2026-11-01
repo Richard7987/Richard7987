@@ -1,5 +1,5 @@
 #!/usr/bin/env julia
-# Render the animated 3D-ASCII wordmark SVGs (SMIL reveal), one per GitHub theme;
+# Render the animated ASCII wordmark SVGs (SMIL reveal), one per GitHub theme;
 # the README swaps them.
 #
 # Usage:  julia scripts/make_wordmark.jl [OUT_DIR]
@@ -13,21 +13,23 @@ const ANIMATE = get(ENV, "STATIC", "") != "1"
 
 const TEXT = "nezzontli"
 const LINES = split(
-    """
-███╗   ██╗███████╗███████╗███████╗ ██████╗ ███╗   ██╗████████╗██╗     ██╗
-████╗  ██║██╔════╝╚══███╔╝╚══███╔╝██╔═══██╗████╗  ██║╚══██╔══╝██║     ██║
-██╔██╗ ██║█████╗    ███╔╝   ███╔╝ ██║   ██║██╔██╗ ██║   ██║   ██║     ██║
-██║╚██╗██║██╔══╝   ███╔╝   ███╔╝  ██║   ██║██║╚██╗██║   ██║   ██║     ██║
-██║ ╚████║███████╗███████╗███████╗╚██████╔╝██║ ╚████║   ██║   ███████╗██║
-╚═╝  ╚═══╝╚══════╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝
+    raw"""
+<-. (`-')_  (`-')  _  (`-')    (`-')             <-. (`-')_ (`-')               _
+   \( OO) ) ( OO).-/  ( OO).-> ( OO).->    .->      \( OO) )( OO).->    <-.    (_)
+,--./ ,--/ (,------.,(_/----.,(_/----.(`-')----. ,--./ ,--/ /    '._  ,--. )   ,-(`-')
+|   \ |  |  |  .---'|__,    ||__,    |( OO).-.  '|   \ |  | |'--...__)|  (`-') | ( OO)
+|  . '|  |)(|  '--.  (_/   /  (_/   / ( _) | |  ||  . '|  |)`--.  .--'|  |OO ) |  |  )
+|  |\    |  |  .--'  .'  .'_  .'  .'_  \|  |)|  ||  |\    |    |  |  (|  '__ |(|  |_/
+|  | \   |  |  `---.|       ||       |  '  '-'  '|  | \   |    |  |   |     |' |  |'->
+`--'  `--'  `------'`-------'`-------'   `-----' `--'  `--'    `--'   `-----'  `--'
 """, '\n'; keepempty = false
 )
 
 const FS = 13.0                 # font-size, px
 const ADV = 7.82                # monospace advance width at FS, px
-const LH = FS                   # line height, px (tight, so the ASCII blocks join)
+const LH = 15.0                 # line height, px (keeps the line art joined without crowding)
 const PAD = 20
-const FF = """font-family="JetBrains Mono,'Fira Code','Cascadia Code',ui-monospace,Consolas,monospace\""""
+const FF = """font-family="JetBrains Mono,'Fira Code','Cascadia Code',ui-monospace,Consolas,monospace" style="font-variant-ligatures:none\""""
 
 const THEMES = (
     (
@@ -40,6 +42,8 @@ const THEMES = (
     ),
 )
 
+esc(s) = replace(s, "&" => "&amp;", "<" => "&lt;", ">" => "&gt;")
+
 function render(theme)
     cols = maximum(length, LINES)
     w = round(Int, PAD * 2 + cols * ADV)
@@ -48,7 +52,7 @@ function render(theme)
     out = String[
         """<svg width="$w" height="$h" viewBox="0 0 $w $h" """ *
             """xmlns="http://www.w3.org/2000/svg" role="img" aria-label="$TEXT">""",
-        """<defs><linearGradient id="wm-g" x1="0" y1="0" x2="0" y2="1">""" *
+        """<defs><linearGradient id="wm-g" gradientUnits="userSpaceOnUse" x1="0" y1="$PAD" x2="0" y2="$(h - PAD)">""" *
             """<stop offset="0" stop-color="$(theme.top)"/>""" *
             """<stop offset="1" stop-color="$(theme.bottom)"/></linearGradient>""" *
             """<clipPath id="wm-card"><rect x="0" y="0" width="$w" height="$h" rx="10"/></clipPath></defs>""",
@@ -60,6 +64,7 @@ function render(theme)
         y = round(PAD + i * LH - LH * 0.22; digits = 2)
         begin_at = round(0.15 + (i - 1) * 0.10; digits = 2)
         el = """<text x="$PAD" y="$y" $FF font-size="$FS" fill="url(#wm-g)" """ *
+            """textLength="$(round(length(ln) * ADV; digits = 2))" lengthAdjust="spacing" """ *
             """xml:space="preserve" opacity="$(ANIMATE ? 0 : 1)">"""
         if ANIMATE
             el *= """<animate attributeName="opacity" from="0" to="1" dur="0.28s" """ *
@@ -67,7 +72,7 @@ function render(theme)
                 """<animate attributeName="x" from="$(PAD - 10)" to="$PAD" dur="0.28s" """ *
                 """begin="$(begin_at)s" fill="freeze"/>"""
         end
-        push!(out, el * ln * "</text>")
+        push!(out, el * esc(ln) * "</text>")
     end
 
     cur_x = round(PAD + cols * ADV + 4; digits = 1)

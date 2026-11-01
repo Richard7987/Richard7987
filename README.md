@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./ascii-wordmark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="./ascii-wordmark-light.svg"/>
-    <img src="./ascii-wordmark.svg" alt="nezzontli" width="560"/>
+    <img src="./ascii-wordmark.svg" alt="nezzontli" width="713"/>
   </picture>
 </p>
 
@@ -50,6 +50,8 @@ privacy as the default rather than a feature.
 <p align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"/></a>
   <a href="https://www.mathworks.com/products/matlab.html"><img src="https://img.shields.io/badge/MATLAB-e16737?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/></a>
+  <a href="https://julialang.org/"><img src="https://img.shields.io/badge/julia-9558B2?style=for-the-badge&logo=julia&logoColor=white" alt="Julia"/></a>
+  <a href="https://typst.app/"><img src="https://img.shields.io/badge/typst-239DAD?style=for-the-badge&logo=typst&logoColor=white" alt="Typst"/></a>
   <a href="https://www.latex-project.org/"><img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX"/></a>
   <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C"/></a>
   <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/></a>
