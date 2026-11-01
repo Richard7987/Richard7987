@@ -1,6 +1,6 @@
 name: refresh-profile-assets
 
-# Regenerates data/contributions.json + contrib-heatmap.svg from the public
+# Regenerates data/contributions.json + contrib-heatmap{,-light}.svg from the public
 # GitHub contribution calendar and commits them back.
 
 on:
@@ -31,14 +31,23 @@ jobs:
       - name: Fetch contributions
         run: python scripts/fetch_contributions.py
 
+      - uses: julia-actions/setup-julia@v3
+        with:
+          version: "1.13"
+
+      - uses: julia-actions/cache@v3
+
+      - name: Install Julia dependencies
+        run: julia --project=scripts -e 'using Pkg; Pkg.instantiate()'
+
       - name: Render heatmap SVG
-        run: python scripts/render_heatmap_svg.py
+        run: julia --project=scripts scripts/render_heatmap.jl
 
       - name: Commit refreshed assets
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json contrib-heatmap.svg
+          git add data/contributions.json contrib-heatmap.svg contrib-heatmap-light.svg
           if git diff --cached --quiet; then
             echo "No changes."
           else
