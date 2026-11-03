@@ -1,9 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./ascii-wordmark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./ascii-wordmark-light.svg"/>
-    <img src="./ascii-wordmark.svg" alt="nezzontli" width="713"/>
-  </picture>
+  <img src="assets/banner.svg" alt="Nezzontli" width="100%">
 </p>
 
 <h3><code>richard@nezzontli:~$ whoami</code></h3>
