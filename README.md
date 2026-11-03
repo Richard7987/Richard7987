@@ -11,15 +11,6 @@ privacy as the default rather than a feature.
 
 **Interests** — Digital privacy · FOSS · Cryptography · Decentralized tech (Monero, Tor, GrapheneOS) · Experimental physics · Embedded systems · Violin · Cycling · Analog photography · Track and field
 
-<h3><code>richard@nezzontli:~$ ./contributions.sh</code></h3>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./contrib-heatmap.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./contrib-heatmap-light.svg"/>
-    <img src="./contrib-heatmap.svg" alt="GitHub contribution heatmap" width="820"/>
-  </picture>
-</p>
 
 <h3><code>richard@nezzontli:~$ ./links.sh</code></h3>
 
