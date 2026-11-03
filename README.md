@@ -4,6 +4,7 @@
 
 <h3><code>richard@nezzontli:~$ whoami</code></h3>
 
+
 Physics student. I care about the scientific method, free software, and treating
 privacy as the default rather than a feature.
 
