@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="922" height="192" viewBox="0 0 922 192" role="img" aria-label="Nezzontli">
+<title>Nezzontli</title>
+<style>.rv{animation:rv 6s steps(91,end) infinite;transform-origin:0 0}@keyframes rv{0%{transform:scaleX(0)}40%,100%{transform:scaleX(1)}}.sh{animation:sh 3s ease-in-out 2.4s infinite}@keyframes sh{0%{transform:translateX(0)}60%,100%{transform:translateX(1475px)}}@media (prefers-reduced-motion:reduce){.rv,.sh,.fl{animation:none}.sh{opacity:0}}</style>
+<defs>
+<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="24" y1="0" x2="897.6" y2="0"><stop offset="0.000" stop-color="#ffffff"/><stop offset="1.000" stop-color="#a1a1aa"/></linearGradient>
+
+<linearGradient id="s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="t"><text font-family='ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace' font-size="16" xml:space="preserve"><tspan x="24" y="37.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">     .-') _   ('-.     .-') _    .-') _                  .-') _  .-') _                    </tspan><tspan x="24" y="53.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">    ( OO ) )_(  OO)   (  OO) )  (  OO) )                ( OO ) )(  OO) )                   </tspan><tspan x="24" y="69.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">,--./ ,--,'(,------.,(_)----. ,(_)----. .-'),-----. ,--./ ,--,' /     '._ ,--.      ,-.-') </tspan><tspan x="24" y="85.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">|   \ |  |\ |  .---'|       | |       |( OO'  .-.  '|   \ |  |\ |'--...__)|  |.-')  |  |OO)</tspan><tspan x="24" y="101.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">|    \|  | )|  |    '--.   /  '--.   / /   |  | |  ||    \|  | )'--.  .--'|  | OO ) |  |  \</tspan><tspan x="24" y="117.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">|  .     |/(|  '--. (_/   /   (_/   /  \_) |  |\|  ||  .     |/    |  |   |  |`-' | |  |(_/</tspan><tspan x="24" y="133.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">|  |\    |  |  .--'  /   /___  /   /___  \ |  | |  ||  |\    |     |  |  (|  '---.',|  |_.'</tspan><tspan x="24" y="149.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">|  | \   |  |  `---.|        ||        |  `'  '-'  '|  | \   |     |  |   |      |(_|  |   </tspan><tspan x="24" y="165.1" textLength="873.6" lengthAdjust="spacingAndGlyphs">`--'  `--'  `------'`--------'`--------'    `-----' `--'  `--'     `--'   `------'  `--'   </tspan></text></clipPath>
+<clipPath id="r"><rect class="rv" x="0" y="0" width="922" height="192"/></clipPath>
+</defs>
+
+<g clip-path="url(#r)"><g clip-path="url(#t)">
+<rect x="0" y="0" width="922" height="192" fill="url(#g)"/>
+<rect class="sh" x="-323" y="0" width="277" height="192" fill="url(#s)"/>
+</g></g>
+
+</svg>
