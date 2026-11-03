@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="nezzontli-banner.svg" alt="Nezzontli" width="100%">
+  <img src="nezzontli-bannerr.svg" alt="Nezzontli" width="100%">
 </p>
 
 <h3><code>richard@nezzontli:~$ whoami</code></h3>
